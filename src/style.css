@@ -10,3 +10,16 @@ a{
     cursor: pointer;
 }
 
+.app-name{
+    margin-left: 5%;
+    color: red;
+    font-size: x-large;
+}
+
+/* .nav-links{
+    align-self: ;
+} */
+
+.nav-links a{
+    padding: 0 5px;
+}
