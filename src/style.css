@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 a{
@@ -10,16 +11,16 @@ a{
     cursor: pointer;
 }
 
-.app-name{
-    margin-left: 5%;
-    color: red;
-    font-size: x-large;
+.navbar{
+    margin-top: 18px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
 }
 
-/* .nav-links{
-    align-self: ;
-} */
-
-.nav-links a{
-    padding: 0 5px;
+.nav-list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
+
